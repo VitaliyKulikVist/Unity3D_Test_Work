@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    //Змінні які будуть працювати скрізь по за межами функцій
+    public float speed;//Змінна доступна всім
+	private Vector3 moveDir = Vector3.zero;//При старті програми, персонаж нікуди не рухається
+    private Rigidbody rb;//Змінна дроступна лише в цьому класі "Rigidbody" це той компонент який ми добавили щоб шарік міг взаємодіяти з оточенням
+    
+    void Start()//функція визивається разом з 1 кадром гри
+    {
+        rb = GetComponent<Rigidbody>();//Обовязкова функція, типу прописуємо що б обєкт мав привязку до компонента Rigidbody    
+    }
+
+    void Update()//Функція визивається кожні 0,02с
+    {
+
+	moveDir = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z);//задаємо що можна рухатись по горизонталі і по вертикалі
+            moveDir = transform.TransformDirection(moveDir);//Обумовлюємо що рух персонажа буде міняти параметри transform згідно ж цього руху
+            moveDir *= speed;//рух дорівнює швидкості
+
+
+        float moveHorizontal = Input.mousePosition.x; //бере значення з вводу в клавіатура і записує в змінну горизонталі в межах від 1 до -1
+        float moveVertical = Input.mousePosition.z;
+
+        Vector2 movevent = new Vector2(moveHorizontal, moveVertical);//позиції по 3 векторам ікс ігрик зет а якщо вектор 2 то просто по іксу і ігрику
+        rb.AddForce(movevent * speed* Time.fixedDeltaTime);//до функції взаємодії з обєкотом добавили функцію двіженія зі швидкістю
+    }
+
+}

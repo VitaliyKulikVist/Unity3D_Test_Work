@@ -1,0 +1,134 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RayCast : MonoBehaviour
+{
+    [SerializeField]
+    public GameObject boolet;
+    public GameObject traser;
+    private float speedTraser=10f;
+    //private float speedBoolet=15f;
+
+    Rigidbody bullet;
+
+    
+
+    void Start()
+    {
+
+    }
+    float timeClick = 0f;
+    [SerializeField]
+    float[] _booletScale = new float[3];
+    void LateUpdate()
+    {
+        traser.gameObject.SetActive(false);
+        //boolet.gameObject.SetActive(false);
+        if (Input.GetMouseButton(0))//якщо кнопка мишкі ЗАЖАТА
+        {
+            timeClick += Time.deltaTime / 2;
+            traser.gameObject.SetActive(true);//зробити видимим трейсер
+            //boolet.gameObject.SetActive(true);
+            traser.gameObject.transform.Translate(Vector3.forward * speedTraser * Time.deltaTime);//уїзджає вперед
+            boolet.transform.localScale += Vector3.one * Time.deltaTime / 2;
+                _booletScale[0] = boolet.transform.localScale.x;
+                _booletScale[1] = boolet.transform.localScale.y;
+                _booletScale[2] = boolet.transform.localScale.z;
+            //print("FIRST:\t"+_booletScale[0]+"\t"+ _booletScale[1]+"\t"+ _booletScale[2]);
+            traser.transform.localScale = new Vector3(traser.transform.localScale.x-Time.deltaTime/20, traser.transform.localScale.y, traser.transform.localScale.z);
+            
+        }
+        else
+        {//повернемо трейсер на початкове місце( да костиль но поки не знаю як по іншому)
+            traser.gameObject.transform.position = new Vector3(6.74f, 0.557f, -18.19f);
+            traser.transform.localScale = new Vector3(0.1f, 1f, 2f);
+
+            boolet.gameObject.transform.position = new Vector3(6.8f, 1f, -16.5f);
+            boolet.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        }
+        
+        if (Input.GetMouseButtonUp(0))//Якщо ВІДЖАТА ліва кнопка мишкі
+        {
+            Ray ray = new Ray(transform.position, transform.forward * 200);
+            Debug.DrawLine(transform.position, transform.forward * 200, Color.black);
+            RaycastHit _hit;// точка зіткнення луча і сам обєкт з яким зіткнувся луч
+
+
+            //boolet.gameObject.transform.localScale.Set(_booletScale[0], _booletScale[1], _booletScale[2]);
+            
+            bullet = Instantiate(boolet, boolet.transform.position, Quaternion.identity).GetComponent<Rigidbody>();//Створюємо копію обєкту яким стрелятимемо
+            bullet.velocity = transform.TransformDirection(Vector3.forward * 15);//Задаємо прискорення цій копії
+            if(bullet.transform.tag== "ShootObject")
+            {
+                bullet.gameObject.GetComponent<Renderer>().material.color = Color.yellow;
+            }
+
+            //Чи попав луч(рейкаст) в щось, і занести інформацію о попаданні в _hit
+            if (Physics.Raycast(ray, out _hit, Mathf.Infinity)) //Raycast вдарить в 1 обєкт і перестане далі бити RaycastAll пробиває наскрізь і повертає масив обєктів
+            {
+                if (_hit.transform.tag == "ShootObject")//якщо ми попали, і оєкт має такий тег тоді
+                {
+                    _hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.red;
+
+                    
+
+                    float dist = Vector3.Distance(_hit.transform.position, boolet.transform.position);
+                    //print("Shoot:\t" + _hit.transform.position + "boolet:" + boolet.gameObject.transform.position + "Distance=" + dist);
+                    if (dist < 5)
+                    {
+                        _hit.collider.gameObject.GetComponent<Renderer>().material.color = Color.black;
+                            Destroy(_hit.collider.gameObject, 1f);
+                    }
+
+                        
+                    
+                    
+                    //bullet.AddForce(new Vector3(0f,0f,50f), ForceMode.VelocityChange);
+
+
+                    //Destroy(_hit.transform.gameObject);//знищити обєкт
+                    //Instantiate(boolet, new Vector3(_hit.transform.position.x, _hit.transform.position.y, _hit.transform.position.z), Quaternion.identity);
+                    //Destroy(boolet.transform.gameObject,5f);//знищити через 5с
+                }
+                /////////////////////////////////////////////////////////////////!!!!!!!!!!!!!!!!!//////////////////////////////////
+
+                //if(_hit.collider.gameObject.GetComponent<Renderer>().material.color==Color.red)
+                //{ }
+
+                //Для знищення всіх обєктів які будуть по нажиманню мишкі
+                //RaycastHit[] hits = Physics.RaycastAll(ray, Mathf.Infinity);//Створюємо масив в який будуть записуватись обєкти якіх ми лучом пробил инасркізь(може бути декільк аобєктів один за одним)
+                //foreach(var hit in hits)
+                //{
+                //    print(_hit.transform.name);//вивід імен обєктів в які попали
+                //    if(_hit.transform.tag == "ShootObject")
+                //    {
+                //        Destroy(_hit.transform.gameObject);
+                //    }
+                //}
+
+                //Для знищення обєктів по слоях необхідно:
+                //if (Physics.Raycast(ray, out _hit, Mathf.Infinity, LayerMask.GetMask("Default"))) //Raycast буде знищувати обєкти на слої Default
+                //    //if (Physics.Raycast(ray, out _hit, Mathf.Infinity, 1<<8))//Raycast буде знищувати обєкти на 8-му слої
+                //{
+                //    if (_hit.transform.tag == "ShootObject")//якщо ми попали, і оєкт має такий тег тоді
+                //    {
+                //        Destroy(_hit.transform.gameObject);//знищити обєкт
+                //    }
+
+                //}
+            }
+        }
+
+        
+    }
+    
+    void Update()
+    {
+        
+    }
+    
+    
+
+
+}

@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public GameObject player;
+    public GameObject camera;
+
+    //Mouse input will be stored in x and y. Rotation speed (kind of sesitivity) 
+    //is stored in speed, public, so you can change it in the inspector.
+    //By default it will be null (zero), so it will not work until you change it.
+    private float x;
+    private float y;
+    private float xMuv;
+    private float yMuv;
+    public float speed;
+
+    void Update()
+    {
+        //Read mouse input values.
+        x = Input.GetAxis("Mouse X");
+        xMuv = Input.mousePosition.x;
+        y = Input.GetAxis("Mouse Y");
+        yMuv = Input.mousePosition.y;
+
+        //Rotate the player right and left
+        player.transform.Rotate(0, x * speed, 0);
+
+        //Look up and down only with your camera
+        camera.transform.Rotate(y * speed, 0, 0);
+    }
+}

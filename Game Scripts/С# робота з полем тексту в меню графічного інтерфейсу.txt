@@ -1,0 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;//Бібліотека для тектової взаємодії(типу інтерфейс)
+
+
+public class PlayerController : MonoBehaviour
+{
+    private int count;//змінна для підрахування балів(очок)
+	//ТЕКСТ НЕ ЗАБУВАТИ ПРИВЯЗУВАТИ ДО ПОЛЯ ПЛЕЄР КОУНТ ТЕКСТ І ВІН ТЕКСТ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public Text countText,winText;//Змінні підрахунку очок і виводу тексту виграшу
+    void Start()//функція визивається разом з 1 кадром гри
+    {
+        count = 0;//Обнуляємо змінну каунт щоб вона при старті мала значення 0
+        winText.text = "";//Обнуляємо змінну winText
+        setCount();//Визиваємо пользоватєльську функцію яку опишемо нижче
+    }
+    private void OnTriggerEnter(Collider other)//функція буде спрацьовувати до любого обєкта де стоїть галочка з тригером обєкта
+    {
+        //По тегам, (добавити новий тег в префаб, вибрати для всіх обєктів, і прописати його тут в тег==...)
+        if (other.tag=="Coin")
+        {
+            //other.gameObject.SetActive(false);//зховати з поля зору(зробити невидимими обєктами
+            Destroy(other.gameObject);//знижує обєкти трігера при дотику, для економії ресурсів пк
+            count++;
+            setCount();
+        }
+        
+    }
+    /// <summary>
+    /// Пользоватєльська функція setCount в якій будем писати функції підрахунку очок при наїзду на обєкт
+    /// </summary>
+    void setCount()
+    {
+        countText.text = "Coin= "+count.ToString();//записуємо що в фішку countText в поле text буде записуватись змінна count яка буде конвертуватись з інт в стрінг
+        if(count==6)
+        {
+            winText.text = "You Win!!!";
+        }
+    }
+
+}

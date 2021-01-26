@@ -1,0 +1,32 @@
+ public GameObject target;
+        private bool stop = false;
+        public GameObject other;
+        private bool stopf = false;
+        void Start () {
+        other.transform.renderer.material.color = Color.blue ;
+       
+        }
+       
+        void Update () {
+        if(!stop)
+        target.transform.renderer.material.color = Color.red ;
+        target.transform.Rotate (5, 0, 0);
+        if(!stopf)
+        other.transform.Rotate (0, 0, 0);
+       
+    float dist = Vector3.Distance(other.transform.position, transform.position);
+       
+    if(Input.GetKeyUp(KeyCode.F))
+                {
+                if(dist <=1)
+             {
+         stop = !stop;
+         target.transform.renderer.material.color = Color.blue ;
+             stopf = !stopf;
+             other.transform.Rotate (0, 0, 10);
+         }
+       }
+  }    
+}
+     
+       

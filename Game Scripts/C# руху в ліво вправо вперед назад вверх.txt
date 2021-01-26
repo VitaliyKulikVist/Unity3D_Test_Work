@@ -1,0 +1,44 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;//Бібліотека для тектової взаємодії(типу інтерфейс)
+
+
+
+
+public class PlayerController : MonoBehaviour
+{
+    //Змінні які будуть працювати скрізь по за межами функцій
+    public float speed;//Змінна доступна всім
+    private Rigidbody rb;//Змінна дроступна лише в цьому класі "Rigidbody" це той компонент який ми добавили щоб шарік міг взаємодіяти з оточенням
+    private int count;//змінна для підрахування балів(очок)
+
+    //ТЕКСТ
+    public Text countText;
+
+    void Start()//функція визивається разом з 1 кадром гри
+    {
+        rb = GetComponent<Rigidbody>();//Обовязкова функція, типу прописуємо що б обєкт мав привязку до компонента Rigidbody    
+    }
+
+    void FixedUpdate()//Функція визивається кожні 0,02с
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal"); //бере значення з вводу в клавіатура і записує в змінну горизонталі в межах від 1 до -1
+        float moveVertical = Input.GetAxis("Vertical");     //бере значення з вводу в клавіатура і записує в змінну вертикалі
+        float jamp = Input.GetAxis("Jump");
+ 
+        Vector3 movevent = new Vector3(moveHorizontal, jamp-0.3f, moveVertical);//позиції по 3 векторам ікс ігрик зет а якщо вектор 2 то просто по іксу і ігрику
+        rb.AddForce(movevent * speed);//до функції взаємодії з обєкотом добавили функцію двіженія зі швидкістю
+    }
+
+
+
+
+
+    void Update()//Функція визивається кожен кадр, перевірка якогось твердження...
+    {
+        
+
+
+    }
+}

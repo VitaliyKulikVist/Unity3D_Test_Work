@@ -1,0 +1,22 @@
+using System.Collections;
+using UnityEngine;
+
+public class SpawnShootObject : MonoBehaviour
+{
+    public int MaxShootObject;
+    public GameObject shootObject;
+    void Start()
+    {
+        StartCoroutine(Spawn());
+    }
+    IEnumerator Spawn()
+    {
+        for(int i=0;i< MaxShootObject;i++)
+        {//Створити обєкт в просторі х у з який не буде повертатись Quaternion.identity
+            Instantiate(shootObject,new Vector3(Random.Range(-2f, 16f), 1.056f, Random.Range(-2f, -15f)),Quaternion.identity);//функція для створення обєктів
+            yield return new WaitForSeconds(0.001f);
+        }
+    }
+
+
+}
