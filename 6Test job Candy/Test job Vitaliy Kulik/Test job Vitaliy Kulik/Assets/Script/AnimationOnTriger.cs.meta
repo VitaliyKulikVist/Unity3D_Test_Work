@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e6d6c75467f54e40968574bb4ff46d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - winText: {instanceID: 0}
+  - Candy: {instanceID: 0}
+  - HeartTope: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
