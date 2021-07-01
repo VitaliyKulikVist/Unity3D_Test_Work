@@ -1,0 +1,688 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.1935; Version 1809; 64bit' Language: 'ru' Physical Memory: 24501 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Vitaliy/Desktop/TestWorkVitaliy/TestWorkVitaliy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49513
+Successfully changed project path to: C:/Users/Vitaliy/Desktop/TestWorkVitaliy/TestWorkVitaliy
+C:/Users/Vitaliy/Desktop/TestWorkVitaliy/TestWorkVitaliy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 87.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vitaliy/Desktop/TestWorkVitaliy/TestWorkVitaliy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4075 MB
+    Driver:   27.20.21003.1028
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002806 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002494 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2680 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3134.
+Total: 2.251100 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.821900 ms  DeleteObjects: 0.089500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/FootBall.fbx
+  artifactKey: Guid(a68ea4bf23f4f9747ac1c37d5ae30306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/FootBall.fbx using Guid(a68ea4bf23f4f9747ac1c37d5ae30306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c80024b115f3f6c42ddef4298e46d5') in 0.310449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Pistol.fbx
+  artifactKey: Guid(5e305378da762b94398c7f67fbb283aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Pistol.fbx using Guid(5e305378da762b94398c7f67fbb283aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23b965927ef28979c7b50a77ee71f3') in 0.019498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Sword_02.fbx
+  artifactKey: Guid(7a070e573ca95864bacd67568034854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Sword_02.fbx using Guid(7a070e573ca95864bacd67568034854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc0e544a6488dfa73817a77cd317eaf') in 0.037821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B06_Ch_04_Avatar.fbx
+  artifactKey: Guid(7f1972951ac6fc345881da2aa3dc3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B06_Ch_04_Avatar.fbx using Guid(7f1972951ac6fc345881da2aa3dc3442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91117b07341b509dc1f6d3cadb367d6f') in 0.027861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Hammer.fbx
+  artifactKey: Guid(cd5e785b37446f74bb58a7c26a1d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Hammer.fbx using Guid(cd5e785b37446f74bb58a7c26a1d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100909be7908d2e5e9b25cc38032b31b') in 0.012431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Bowling.fbx
+  artifactKey: Guid(f636b5276af76f048921d9e25883ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Bowling.fbx using Guid(f636b5276af76f048921d9e25883ea03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b7eae02b95a73726f27f7e99a0875f') in 0.018634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Spear_01.fbx
+  artifactKey: Guid(340c08e4d850b1446816e414d501b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Spear_01.fbx using Guid(340c08e4d850b1446816e414d501b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0746859f3c9dac390bd77a5e1801f3') in 0.019753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/P_Stick_02.fbx
+  artifactKey: Guid(fe612c66c8bcbc040b2a0305d7d71bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/P_Stick_02.fbx using Guid(fe612c66c8bcbc040b2a0305d7d71bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257ddb1e72c05e644d96a8ad2ab4e992') in 0.012473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/TennisBat.fbx
+  artifactKey: Guid(bbedce53432f9b046bfe7a73fa08d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/TennisBat.fbx using Guid(bbedce53432f9b046bfe7a73fa08d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7b482bcc37db6d929489d42918167f') in 0.017662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbx
+  artifactKey: Guid(9b232a5e676587d478938ebb2d6c7d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbx using Guid(9b232a5e676587d478938ebb2d6c7d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f1e17eebbc75cfa68122d6606e74e1') in 0.029082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Sword_01.fbx
+  artifactKey: Guid(84c2b6d3a850de7448ad8fed7dd40407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Sword_01.fbx using Guid(84c2b6d3a850de7448ad8fed7dd40407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7597a05169ec34c539b4d8b52f1017') in 0.016137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/P_Stick_01.fbx
+  artifactKey: Guid(b7fd086c56a35164ba29d0212f93c2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/P_Stick_01.fbx using Guid(b7fd086c56a35164ba29d0212f93c2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aff71b3e2573d117fc53b4bffd96fd') in 0.012870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials
+  artifactKey: Guid(6402244fceac850448f986e8ef45b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials using Guid(6402244fceac850448f986e8ef45b7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b7810ebae61f07cf9640ab8e13efa4') in 0.001813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B25_Ch_04_Avatar.fbx
+  artifactKey: Guid(df988c47aa443964a8924d60247c7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B25_Ch_04_Avatar.fbx using Guid(df988c47aa443964a8924d60247c7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c23d6fc83752c5cf9b0c98abfb08d9') in 0.020752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/BasketBall.fbx
+  artifactKey: Guid(9035705c11ed9d9438dd54d3fb81c7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/BasketBall.fbx using Guid(9035705c11ed9d9438dd54d3fb81c7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f120a0151bc26d0f09c2bc21e7203e7') in 0.012591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/GolfBats.fbx
+  artifactKey: Guid(dd08f653a6191f743831e1b2f6e013e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/GolfBats.fbx using Guid(dd08f653a6191f743831e1b2f6e013e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1790ab77e2f728d422fa893a5749ae53') in 0.035643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/P_SkateBoard.fbx
+  artifactKey: Guid(b85b4b8b44f270d489196774ff37e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/P_SkateBoard.fbx using Guid(b85b4b8b44f270d489196774ff37e2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1584f4cc024a1705b387ece3e1d3a177') in 0.021025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/HockyBAt.fbx
+  artifactKey: Guid(0c40e99cb8ed472479a3ccd10cf8363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/HockyBAt.fbx using Guid(0c40e99cb8ed472479a3ccd10cf8363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a9bc91f2249ad2ae9e7ef057c6e85') in 0.023802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/TennsBall.fbx
+  artifactKey: Guid(6d65ff3600680834e86eab4da30fad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/TennsBall.fbx using Guid(6d65ff3600680834e86eab4da30fad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49459a045c9aec4781260f1a24cdab21') in 0.015345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/P_Bat_01.fbx
+  artifactKey: Guid(8a308aa29e4a4c54d820aac9453fe326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/P_Bat_01.fbx using Guid(8a308aa29e4a4c54d820aac9453fe326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1d7c4639f2d858ed6161df84637d2') in 0.026210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/CricketBat.fbx
+  artifactKey: Guid(8be108a3cee4db34c902bff475fb3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/CricketBat.fbx using Guid(8be108a3cee4db34c902bff475fb3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbb005cda5698a9bfb2c7231916e639') in 0.019977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Rifile.fbx
+  artifactKey: Guid(b9eb63fe97712a345986f9051a608348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Rifile.fbx using Guid(b9eb63fe97712a345986f9051a608348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32632b232b0d2cf631bfe87793bc7a4a') in 0.013086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B18_Ch_01_AvatarZombie.fbx
+  artifactKey: Guid(2c7fb3d27117eeb4a9182ee87a7025b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B18_Ch_01_AvatarZombie.fbx using Guid(2c7fb3d27117eeb4a9182ee87a7025b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb3f961f65fb3aff4d242ada14dff5f') in 0.020571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B30_Ch_05_Avatar.fbx
+  artifactKey: Guid(1934d7a3170d2a44281dfb3617f80d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B30_Ch_05_Avatar.fbx using Guid(1934d7a3170d2a44281dfb3617f80d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97934fd3936923067fc93486d639c8ae') in 0.021190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/CricketBall.fbx
+  artifactKey: Guid(ba6fe526282e45f47898a5ee480921a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/CricketBall.fbx using Guid(ba6fe526282e45f47898a5ee480921a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08019a1d003842167effe46c8b6bbc00') in 0.019613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/GolfBall.fbx
+  artifactKey: Guid(820201259fbfa1b44abec28204d0f785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/GolfBall.fbx using Guid(820201259fbfa1b44abec28204d0f785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fecc6774fd49b64f9d2c0ea1722c844') in 0.013977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbm
+  artifactKey: Guid(af63c2dce6993f94e9728df342623f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbm using Guid(af63c2dce6993f94e9728df342623f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e57181b75fea64ac95b4caf37769d57') in 0.001890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab
+  artifactKey: Guid(5987ca7454b05d44899677daa6ad85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab using Guid(5987ca7454b05d44899677daa6ad85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cb9ea976f0ba3d338f53ebcef2bbba') in 0.001906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbm/vehicles_texture.png
+  artifactKey: Guid(ed0cf0e7db2edbf41a6ea17bfb728436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B28_Ch_05_Avatar.fbm/vehicles_texture.png using Guid(ed0cf0e7db2edbf41a6ea17bfb728436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3323dbcba019d743a1c27b88a150de') in 0.022823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props
+  artifactKey: Guid(ee8862651b0eb4c499c76eb10c90ca30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props using Guid(ee8862651b0eb4c499c76eb10c90ca30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723bb019933e7be07bc0b95cd2acedf1') in 0.001817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/RugbyBall.fbx
+  artifactKey: Guid(a465364e5423f2248b571d2643a5c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/RugbyBall.fbx using Guid(a465364e5423f2248b571d2643a5c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a570cd0dbe42b5ee40acc1a91158f4c6') in 0.021422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B12_Ch_02_Avatar.fbx
+  artifactKey: Guid(30eacfcb4c137bf4a9aaa3266373bd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B12_Ch_02_Avatar.fbx using Guid(30eacfcb4c137bf4a9aaa3266373bd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40aae5c07646c19de0ec0e50d408d1b') in 0.027635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B20_Ch_01_Avatar.fbx
+  artifactKey: Guid(3d15d42cbf37faf4cb25ebab81c2f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/B20_Ch_01_Avatar.fbx using Guid(3d15d42cbf37faf4cb25ebab81c2f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7564753a6c1bdf340f0bf6b4f25a48c') in 0.024854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.069881 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Jambie_texture.mat
+  artifactKey: Guid(d1ee31ea46e21e34a822038b7bbc89bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Jambie_texture.mat using Guid(d1ee31ea46e21e34a822038b7bbc89bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6807087d390cab2ce2ebe1de23dea0') in 0.044040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Vector_colours.mat
+  artifactKey: Guid(af1c4e64ca0ce1a4fa470580553a1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Vector_colours.mat using Guid(af1c4e64ca0ce1a4fa470580553a1cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3002894b104fcd65bec8ca538c5de346') in 0.008393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/vehicles_texture.mat
+  artifactKey: Guid(ff0eeaceb189f8c458fc573cf4a16a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/vehicles_texture.mat using Guid(ff0eeaceb189f8c458fc573cf4a16a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa6f9f845eed8792ad6b4e3f4d4c3cb') in 0.009073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Zombie_texture.png
+  artifactKey: Guid(2b25cce7098a2344480fa0abc7901f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Zombie_texture.png using Guid(2b25cce7098a2344480fa0abc7901f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4c4aab175702e1baea444234aaf1f6') in 0.009847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Zombie_texture.mat
+  artifactKey: Guid(a8dcecb44f36d0741a83d4a1835477ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/Zombie_texture.mat using Guid(a8dcecb44f36d0741a83d4a1835477ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3be13eee7a727c3ed48ea5d75cb8037') in 0.010251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/vehicles_texture.png
+  artifactKey: Guid(cc6145fc375d04c4e91b26fa51f679cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Materials/vehicles_texture.png using Guid(cc6145fc375d04c4e91b26fa51f679cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7e1a7f4722a4a12a72f5f2f05aadca') in 0.006101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.396524 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B06_Ch_04_Avatar.prefab
+  artifactKey: Guid(889859d3862ff3b46b48aa6898f9773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B06_Ch_04_Avatar.prefab using Guid(889859d3862ff3b46b48aa6898f9773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690e1b584a8d74b54ba4b87f7995b4af') in 0.014002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B12_Ch_02_Avatar.prefab
+  artifactKey: Guid(7d6889c17c68e1947ad3f422fbca01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B12_Ch_02_Avatar.prefab using Guid(7d6889c17c68e1947ad3f422fbca01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd351476e3f71bc55b62f54da627f58fb') in 0.019110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B28_Ch_05_Avatar.prefab
+  artifactKey: Guid(159e60b48e323134684b9f7426982bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B28_Ch_05_Avatar.prefab using Guid(159e60b48e323134684b9f7426982bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6953c5c53f54bd04ad50d0af1c8fee9') in 0.014037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B30_Ch_05_Avatar.prefab
+  artifactKey: Guid(6009a5cb76b01ad41b78f123a6aeee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B30_Ch_05_Avatar.prefab using Guid(6009a5cb76b01ad41b78f123a6aeee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da0ca7fa0852ecb0d5212cb62bddcc3') in 0.012132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B18_Ch_01_AvatarZombie.prefab
+  artifactKey: Guid(527a8e48b0dc4c547b7071327d154307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B18_Ch_01_AvatarZombie.prefab using Guid(527a8e48b0dc4c547b7071327d154307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89777993cd62f947e599f294966f9292') in 0.017074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B20_Ch_01_Avatar.prefab
+  artifactKey: Guid(e0ef6083a5069634e8cc03171793c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B20_Ch_01_Avatar.prefab using Guid(e0ef6083a5069634e8cc03171793c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b3126ee0d9d6f3ed6f9f191f47356') in 0.013822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B25_Ch_04_Avatar.prefab
+  artifactKey: Guid(d114356fbca98b441817a460d0ce759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Humanoid avatars/Prefabs/B25_Ch_04_Avatar.prefab using Guid(d114356fbca98b441817a460d0ce759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8884c940a5df84db573cd144c8f995d2') in 0.011537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.559179 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfAnticipation_01.fbx
+  artifactKey: Guid(bdc7912b837d8574581a2e31256d4db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfAnticipation_01.fbx using Guid(bdc7912b837d8574581a2e31256d4db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce97f18f51e6af05aeae4d90a29df3d') in 0.005993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfIdle.fbx
+  artifactKey: Guid(95f825eb610d58645a6fbf1e916ffa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfIdle.fbx using Guid(95f825eb610d58645a6fbf1e916ffa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c0ebd27610295a59ee3ceee6b23e37') in 0.004788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfIdle2.fbx
+  artifactKey: Guid(6d31cb477d31b18408250d6eb2288c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Golf/G@GolfIdle2.fbx using Guid(6d31cb477d31b18408250d6eb2288c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4753c6a9270ef27fd4005691c16c4b') in 0.005558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439275 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@ComboFinish.fbx
+  artifactKey: Guid(225072896c8a76b4f9ba2f97cc6396c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@ComboFinish.fbx using Guid(225072896c8a76b4f9ba2f97cc6396c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bc4e95e2acc51a8c625105e8e25407') in 0.004936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@dodge L.fbx
+  artifactKey: Guid(4f0770abd4e545a419d40562754ad6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@dodge L.fbx using Guid(4f0770abd4e545a419d40562754ad6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689429c3befcf3ef25c8de9b677999b6') in 0.005099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@run fist.fbx
+  artifactKey: Guid(16e105ea7c991e34daa597d153130e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@run fist.fbx using Guid(16e105ea7c991e34daa597d153130e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19d49bf7187914db245e95b5b8bf7c7') in 0.004709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@kick.fbx
+  artifactKey: Guid(d0ea25b5e5333cd4f8a6ea2a82fc4134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@kick.fbx using Guid(d0ea25b5e5333cd4f8a6ea2a82fc4134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76941f0cff3dc585f6de0c1083bb4062') in 0.005173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@counter atk.fbx
+  artifactKey: Guid(60618ebe88ff8bb4281305e63b08ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@counter atk.fbx using Guid(60618ebe88ff8bb4281305e63b08ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b370a296cab7e70f224ce3a7194fda27') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@idle.fbx
+  artifactKey: Guid(1279ce1156a3ff845bb3568546de1e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@idle.fbx using Guid(1279ce1156a3ff845bb3568546de1e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3002875adef9362fbd88eedf93cdd6f5') in 0.005089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@getup.fbx
+  artifactKey: Guid(cfbb407ab968a994ebdb214c5531c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@getup.fbx using Guid(cfbb407ab968a994ebdb214c5531c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258547353a7e5844654568b1218c3c5b') in 0.004996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@hypo.fbx
+  artifactKey: Guid(86b388147abb21445a1106a893329acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@hypo.fbx using Guid(86b388147abb21445a1106a893329acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be698a6b1f0b204e8204888a763536c9') in 0.005486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@jog 2h.fbx
+  artifactKey: Guid(626360514eca96949820371bb2066d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/StreetFight/SF@jog 2h.fbx using Guid(626360514eca96949820371bb2066d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc9d973176e7f5e66889faf061d0804') in 0.005003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.911905 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_attack big left.mb.fbx
+  artifactKey: Guid(3c59eeb345b95004fa9f9c2ca9c41d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_attack big left.mb.fbx using Guid(3c59eeb345b95004fa9f9c2ca9c41d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b651969cc61a2019b371bc077a2197f') in 0.005868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_attack big right.fbx
+  artifactKey: Guid(87a1913430402c14a8fe126de4a3a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_attack big right.fbx using Guid(87a1913430402c14a8fe126de4a3a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1bcf97cde315b391a57d27ee174d04') in 0.005545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_intro walk.fbx
+  artifactKey: Guid(b68a29e75d587f545a803cc7f7a62b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/SwordFight/S@Sword_intro walk.fbx using Guid(b68a29e75d587f545a803cc7f7a62b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b144237a3b74a441ab71ca8010a30a5d') in 0.005473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472930 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Tennis/T@Idle_01.fbx
+  artifactKey: Guid(b2536cdee0b872247aadab4fcbb21db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Tennis/T@Idle_01.fbx using Guid(b2536cdee0b872247aadab4fcbb21db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4c5a0099919c91252b9452e0b86740') in 0.004803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Tennis/T@Serve.fbx
+  artifactKey: Guid(f974a057df2c6da4f95fbab9de24a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Tennis/T@Serve.fbx using Guid(f974a057df2c6da4f95fbab9de24a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184335b5f148bc4259d7e782936c5b48') in 0.005872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.628547 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombi_Walk_01.fbx
+  artifactKey: Guid(cc6e8279a50f1cb47b046cc6e4e44d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombi_Walk_01.fbx using Guid(cc6e8279a50f1cb47b046cc6e4e44d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a94c78c3130177e1d6735d477b58c3') in 0.004811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombi_Walk_02.fbx
+  artifactKey: Guid(f38a03b484fa1ed479f586df2779835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombi_Walk_02.fbx using Guid(f38a03b484fa1ed479f586df2779835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4ae24aaf8f9518092ad40a71a27c3') in 0.005002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombie Distruction.fbx
+  artifactKey: Guid(14ff10c06043409498076d46075396b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombie Distruction.fbx using Guid(14ff10c06043409498076d46075396b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a158a70b8098903a9a4898819e0fbeb') in 0.004967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombie Die_01.fbx
+  artifactKey: Guid(0c016698e72925645a2e179c5a995eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/AnimationPacks/Zombie/Az@Zombie Die_01.fbx using Guid(0c016698e72925645a2e179c5a995eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4d7b21183fbd228814dc375e509839') in 0.005124 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2665 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.0 MB.
+System memory in use after: 122.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3229.
+Total: 2.756100 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.318500 ms  DeleteObjects: 0.065100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.529740 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Materials
+  artifactKey: Guid(b987bfdb1d82bd347bbe2fecc766b5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Materials using Guid(b987bfdb1d82bd347bbe2fecc766b5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cef40f1a4d382d53f02dfca7bba66f') in 0.006332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070872 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Materials/DemoPlane.mat
+  artifactKey: Guid(a5bc3061607b9ac488f6e9c73f1a1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Materials/DemoPlane.mat using Guid(a5bc3061607b9ac488f6e9c73f1a1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abc106dc1bca87987fbefe8a6a5c63b') in 0.158109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Materials/vehicles_texture.mat
+  artifactKey: Guid(a1d5a3abcbb18b0438c4b52ddb6b0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Materials/vehicles_texture.mat using Guid(a1d5a3abcbb18b0438c4b52ddb6b0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e57022fca80120cb2743ba67ab125b') in 0.008657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/Materials/Vector_colours.mat
+  artifactKey: Guid(e8fabadb5c73f5e478bff786c7fb1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/Materials/Vector_colours.mat using Guid(e8fabadb5c73f5e478bff786c7fb1398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f733e9519eab811af2d66355a0ab35b') in 0.008369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015237 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/AllProps.prefab
+  artifactKey: Guid(4a59aee993f6902468e2cbebbf966e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/AllProps.prefab using Guid(4a59aee993f6902468e2cbebbf966e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89381a44c17b7529c868a7f2f697368b') in 0.038213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/TennisBat.prefab
+  artifactKey: Guid(742d3c234fa248d4a9a8e8724fc1306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/TennisBat.prefab using Guid(742d3c234fa248d4a9a8e8724fc1306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a059fc2c0bcba296523836c2c998af1c') in 0.018128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/GolfBats.prefab
+  artifactKey: Guid(7f1c976e19a51094aa37ac985fe04b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/GolfBats.prefab using Guid(7f1c976e19a51094aa37ac985fe04b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016ea53eb92c756f4bca52972b5c0ee') in 0.008828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Stick_02.prefab
+  artifactKey: Guid(a0693c28d5a2e1f40a7e445ddb94ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Stick_02.prefab using Guid(a0693c28d5a2e1f40a7e445ddb94ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371257a58b0faffaecf36cb1d24131cc') in 0.015974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/CricketBat.prefab
+  artifactKey: Guid(3b2c6ee265ce83142b49b4094ff76b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/CricketBat.prefab using Guid(3b2c6ee265ce83142b49b4094ff76b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca2efc3a6bf04da7c452bd490755037') in 0.007731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/CricketBall.prefab
+  artifactKey: Guid(2fb31e8f67cd8d141a371293062cd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/CricketBall.prefab using Guid(2fb31e8f67cd8d141a371293062cd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb63faf2f4c7cb4915e7c6e030a8d01') in 0.008065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/BasketBall.prefab
+  artifactKey: Guid(11fe7e2ec569efd47b35362153930997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/BasketBall.prefab using Guid(11fe7e2ec569efd47b35362153930997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c040fdd6ba04070250e63813b0794437') in 0.007829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Bat_01.prefab
+  artifactKey: Guid(6d0a3d3e77f25c64fb8ab7523d178a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Bat_01.prefab using Guid(6d0a3d3e77f25c64fb8ab7523d178a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a68033a5aa11783b7afb0958dfb7bdf') in 0.008510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/HockyBAt.prefab
+  artifactKey: Guid(57f63e37ad68fbb49bf8ca74b7f9dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/HockyBAt.prefab using Guid(57f63e37ad68fbb49bf8ca74b7f9dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2f6231891b4996b3c075d49f805390') in 0.014470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/TennsBall.prefab
+  artifactKey: Guid(71d614b7169ae3d4899c34a9710bb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/TennsBall.prefab using Guid(71d614b7169ae3d4899c34a9710bb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a66cfb36085c64a9c463f0cdffd8d4') in 0.008288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/GolfBall.prefab
+  artifactKey: Guid(ea96061e1636a0b498977aefc98a2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/GolfBall.prefab using Guid(ea96061e1636a0b498977aefc98a2eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f06a0481f351e4c9f67e0357e038ba4') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_SkateBoard.prefab
+  artifactKey: Guid(e06638a288f6c7a468dcb9bcf39410e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_SkateBoard.prefab using Guid(e06638a288f6c7a468dcb9bcf39410e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4baf5d7e30cb3c8250b2d19c6be1f2') in 0.008491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/RugbyBall.prefab
+  artifactKey: Guid(0b8c2ad763f1b8147b1b4f56db8d9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/RugbyBall.prefab using Guid(0b8c2ad763f1b8147b1b4f56db8d9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813a1f426a6d267d56d8d49c326c1fd3') in 0.007834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Bowling.prefab
+  artifactKey: Guid(571fee8fe694f5c46b80b52cce7a7a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Bowling.prefab using Guid(571fee8fe694f5c46b80b52cce7a7a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c0cce083f26afae5c4f99cd2644fd0') in 0.007918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Pistol.prefab
+  artifactKey: Guid(80f89a532e693784a8e6c40247c4702b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Pistol.prefab using Guid(80f89a532e693784a8e6c40247c4702b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b250d0dda1f714ed578ec252bcf4df7') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/FootBall.prefab
+  artifactKey: Guid(219de8f7633b6e84c9394d360619967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/FootBall.prefab using Guid(219de8f7633b6e84c9394d360619967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8216068d15ce4bc8aee6eded14abf05e') in 0.007904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Sword_02.prefab
+  artifactKey: Guid(55fb53d98542bf649a82879eedce54ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Sword_02.prefab using Guid(55fb53d98542bf649a82879eedce54ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca6529755790c7818b2e14fbf597e66') in 0.009088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Hammer.prefab
+  artifactKey: Guid(8866e981d74a31444b70aa589a8ad24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Hammer.prefab using Guid(8866e981d74a31444b70aa589a8ad24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cff5fcb8d2ed7e2db413725fbd28f9') in 0.008653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Sword_01.prefab
+  artifactKey: Guid(1b43c3ff2ac856f459a9e8bbec696d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Sword_01.prefab using Guid(1b43c3ff2ac856f459a9e8bbec696d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5fb370e540c45a5156c4a767ee3bd1') in 0.008687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Spear_01.prefab
+  artifactKey: Guid(3841a6dcd1a967c439f2422d6102c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Spear_01.prefab using Guid(3841a6dcd1a967c439f2422d6102c50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4c15a1bd9fad167e726589d478c645') in 0.007392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Rifile.prefab
+  artifactKey: Guid(c96ad459540985244a1a0bda56252f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/Rifile.prefab using Guid(c96ad459540985244a1a0bda56252f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7327145471c365c37537932ecaf90e3f') in 0.015205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Stick_01.prefab
+  artifactKey: Guid(01c435ffbe18b3043b1152ee3a75c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatars_Animations_Bible_Demo/Props/PropsPrefab/P_Stick_01.prefab using Guid(01c435ffbe18b3043b1152ee3a75c828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f298fe725bb898b13879a223c9c6508') in 0.007833 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Vitaliy\Desktop\TestWorkVitaliy\TestWorkVitaliy\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.0 MB.
+System memory in use after: 122.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 2.725000 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.308500 ms  DeleteObjects: 0.055700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
