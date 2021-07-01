@@ -1,0 +1,69 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+[RequireComponent(typeof(MeshFilter),typeof(MeshRenderer))]//перевірка на наявність компонентів, якщо немає, створює
+public class MeshGenerator : MonoBehaviour
+{
+    [SerializeField]
+    private int _xSize, _ySize;
+    private Vector3[] _vertices;
+    private Mesh _mesh;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Generate();
+    }
+    private void Generate()
+    {
+        _mesh = new Mesh();
+        GetComponent<MeshFilter>().mesh = _mesh;
+        _mesh.name = "Grid";
+
+
+        //////////////////////////////////////////////////////////////////////////////////Вершини
+        _vertices = new Vector3[(_xSize + 1) * (_ySize + 1)];//мамсив вершини розмірністю
+        Vector2[] _uvs = new Vector2[_vertices.Length];//ЮВ координати
+        Vector4[] _tangents = new Vector4[_vertices.Length];//вектор для "карти нормалій"
+        Vector4 _tangent = new Vector4(1f,0f,0f,-1f);//оскільки плоскість       -1 або 1 для контроля 3 вимурі
+        for (int i=0,y=0;y<_ySize;y++)
+        {
+            for(int x=0;x<_xSize;x++,i++)
+            {
+                _vertices[i] = new Vector3(x, y);//генерація квадрата точок
+                _uvs[i] = new Vector2((float)x / _xSize, (float)y / _ySize);//змінюємо тип на (float) для кращої точності
+                _tangents[i] = _tangent;
+
+            }
+        }
+        _mesh.vertices = _vertices;//передаєму мешу, вершини
+        _mesh.uv = _uvs;//передаєму мешу, ЮВ координат
+        _mesh.tangents = _tangents;//закідаємо карту нормаль в меш
+        //////////////////////////////////////////////////////////////////////////////////Трикутники
+        int[] _triangles = new int[_xSize*_ySize* 6];
+        for(int ti=0,vi=0,y=0;y<_ySize;y++,vi++)
+        {
+            for (int x = 0; x < _xSize; x++,ti+=6,vi++)//vi-індекс вершини і повинен збільшуватись на 1 постійно        ti-індекс трикутника і збільшується на 6 в рамках 1 проходу
+            {
+                _triangles[ti] = vi;
+                _triangles[ti+1] = _triangles[ti+4] =vi+ _xSize + 1;
+                _triangles[ti+2] = _triangles[ti+3] = vi+ 1;
+                _triangles[ti+5] =vi+ _xSize + 2;
+            }
+        }
+        
+        _mesh.triangles = _triangles;//передаєму масиви індексів трикутників
+        _mesh.RecalculateNormals();//вираховує нормалі шляхом перевірки трикутників які зєднані з цією вершиною
+    }
+    private void OnDrawGizmos()//намалювати сфери певного радіуса по координатам
+    {
+        if(_vertices==null)
+        {
+            return;
+        }
+        Gizmos.color = Color.red;
+        for(int i=0;i<_vertices.Length;i++)
+        {
+            Gizmos.DrawSphere(_vertices[i], 0.2f);
+        }
+    }
+}

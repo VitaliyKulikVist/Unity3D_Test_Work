@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class Paint : MonoBehaviour, IDragHandler, IDropHandler
+{
+    private Vector2 delta ;
+    private Vector2 paint;
+
+    private LineRenderer lineRenderer;
+    private void Start()
+    {
+        lineRenderer = GameObject.Find("LineRender").GetComponent<LineRenderer>();
+        lineRenderer.enabled = false;
+    }
+
+    private void Update()
+    {
+        paint = new Vector2(delta.x, delta.y);
+        //Debug.Log(paint);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        lineRenderer.enabled = true;
+        delta = eventData.delta;
+        if (Mathf.Abs(delta.x) > Mathf.Abs(delta.y))//горизонтальний свайп
+        {
+            if (delta.x > 0)//right
+            {
+                //Debug.Log("right");
+
+            }
+            else//left
+            {
+                //Debug.Log("left");
+            }
+            lineRenderer.SetPosition(0, new Vector3(delta.x, delta.y, 0f));
+        }
+        else//вертикальний свайп
+        {
+            if (delta.y > 0)//up
+            {
+                //Debug.Log("up");
+            }
+            else//down
+            {
+                //Debug.Log("down");
+            }
+            lineRenderer.SetPosition(0, new Vector3(delta.x, delta.y, 0f));
+        }
+    }
+    public void OnDrop(PointerEventData eventData)
+    {
+        lineRenderer.enabled = false;
+    }
+
+
+}

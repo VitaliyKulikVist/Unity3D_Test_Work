@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Generator : MonoBehaviour
+{
+    private GameObject _feet;
+    public float widthMesh = 50f;
+    public float heightMesh = 50f;
+    void Start()
+    {
+        _feet = GameObject.Find("TTBFeetB") as GameObject;
+
+        MeshFilter m_f = GetComponent<MeshFilter>();
+        Mesh _mesh = new Mesh();
+        m_f.mesh = _mesh;
+        //вершини
+        Vector3[] _vect = new Vector3[4] { new Vector3(0f, 0f, 0f), new Vector3(widthMesh, 0f, 0f), new Vector3(0f, heightMesh, 0f), new Vector3(widthMesh, heightMesh, 0f) };
+    //Трикутники
+    int[] tri = new int[6]
+    {
+            0,2,1,2,3,1
+    };
+        //відображення текстур
+        Vector2[] _uv = new Vector2[4] {
+        new Vector2(0f,0f),new Vector2(1f,0f),new Vector2(0f,1f),new Vector2(1f,1f)};
+
+
+
+        _mesh.vertices = _vect;
+        _mesh.triangles = tri;
+        _mesh.uv = _uv;
+}
+// Update is called once per frame
+void Update()
+    {
+        
+    }
+}
